@@ -1,0 +1,160 @@
+{
+  "project_info": {
+    "project_number": "99410755691",
+    "firebase_url": "https://fir-a5bee.firebaseio.com",
+    "project_id": "fir-a5bee",
+    "storage_bucket": "fir-a5bee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99410755691:android:080f0bd94b74e5dc",
+        "android_client_info": {
+          "package_name": "com.imb.swat.salessystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99410755691-hopln8qulob4udo4h211e7d78sqjhdbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyOAY3Zkj_z9_FYhTyuLd5xaodyqaif0A"
+        },
+        {
+          "current_key": "AIzaSyBOw-CmUpLox83jjkqjBTQRrtlveqJ2szw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99410755691:android:14a0825cf65d07c2",
+        "android_client_info": {
+          "package_name": "com.imb.swat.adminsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99410755691-hopln8qulob4udo4h211e7d78sqjhdbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyOAY3Zkj_z9_FYhTyuLd5xaodyqaif0A"
+        },
+        {
+          "current_key": "AIzaSyBOw-CmUpLox83jjkqjBTQRrtlveqJ2szw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99410755691:android:fb46ee221815c52e",
+        "android_client_info": {
+          "package_name": "com.imb.swat.loyaltysystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99410755691-hopln8qulob4udo4h211e7d78sqjhdbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyOAY3Zkj_z9_FYhTyuLd5xaodyqaif0A"
+        },
+        {
+          "current_key": "AIzaSyBOw-CmUpLox83jjkqjBTQRrtlveqJ2szw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99410755691:android:7502d1a9b6fb9225",
+        "android_client_info": {
+          "package_name": "lib.imb.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99410755691-8031679kpehphlnk2j44m62mtmv1r5vg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lib.imb.demo",
+            "certificate_hash": "c19c6b2b2ebe7890bc21dbafe0223b7aa411a768"
+          }
+        },
+        {
+          "client_id": "99410755691-hopln8qulob4udo4h211e7d78sqjhdbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyOAY3Zkj_z9_FYhTyuLd5xaodyqaif0A"
+        },
+        {
+          "current_key": "AIzaSyBOw-CmUpLox83jjkqjBTQRrtlveqJ2szw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99410755691-hopln8qulob4udo4h211e7d78sqjhdbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

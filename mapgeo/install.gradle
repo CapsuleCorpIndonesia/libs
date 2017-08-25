@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.antoniocappiello.library' // CREATE A GROUP ID FOR YOUR LIBRARY
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'lib.imb.c' // CREATE A GROUP ID FOR YOUR LIBRARY
+                artifactId 'mapgeo' // THE NAME OF YOUR MODULE
+
+                name 'MapGeo' // YOUR LIBRARY NAME
+                description 'To Get Location' // YOUR LIBRARY DESCRIPTION
+                url '' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'ciunz' //YOUR ID
+                        name 'Kornelius Sendy' //YOUR NAME
+                        email 'kornelius.sendy@gmail.com' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/AntonioCappiello/date-utils.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/AntonioCappiello/date-utils.git' // YOUR GIT REPO
+                    url 'https://github.com/AntonioCappiello/date-utils' // YOUR SITE
+
+                }
+            }
+        }
+    }
+}
