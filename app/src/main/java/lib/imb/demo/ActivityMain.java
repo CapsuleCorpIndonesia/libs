@@ -10,6 +10,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 import lib.imb.c.login.AuthSettings;
 import lib.imb.c.login.IMBAuth;
+import lib.imb.c.mapgeo.MapsGeo;
 
 public class ActivityMain extends AppCompatActivity {
 
@@ -17,6 +18,7 @@ public class ActivityMain extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         IMBAuth.getInstance().authenticate(
                 new AuthSettings(this, new IMBAuth.OnAuthListener() {

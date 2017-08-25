@@ -1,6 +1,6 @@
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'com.antoniocappiello.library' // CREATE A GROUP ID FOR YOUR LIBRARY
+group = 'lib.imb.c' // CREATE A GROUP ID FOR YOUR LIBRARY
 
 install {
     repositories.mavenInstaller {
@@ -10,9 +10,9 @@ install {
                 groupId 'lib.imb.c' // CREATE A GROUP ID FOR YOUR LIBRARY
                 artifactId 'mapgeo' // THE NAME OF YOUR MODULE
 
-                name 'MapGeo' // YOUR LIBRARY NAME
+                name 'mapgeo' // YOUR LIBRARY NAME
                 description 'To Get Location' // YOUR LIBRARY DESCRIPTION
-                url '' // YOUR SITE
+                url 'https://github.com/ciunz/libs' // YOUR SITE
 
                 licenses {
                     license {
@@ -28,9 +28,9 @@ install {
                     }
                 }
                 scm {
-                    connection 'https://github.com/AntonioCappiello/date-utils.git' // YOUR GIT REPO
-                    developerConnection 'https://github.com/AntonioCappiello/date-utils.git' // YOUR GIT REPO
-                    url 'https://github.com/AntonioCappiello/date-utils' // YOUR SITE
+                    connection 'https://github.com/ciunz/libs.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/ciunz/libs.git' // YOUR GIT REPO
+                    url 'https://github.com/ciunz/libs' // YOUR SITE
 
                 }
             }

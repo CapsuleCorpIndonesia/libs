@@ -30,6 +30,7 @@ dependencies {
 
     testCompile 'junit:junit:4.12'
     compile project(':login')
+    compile 'lib.imb.c:mapgeo:11.2.0'
 }
 apply plugin: 'com.google.gms.google-services'
 
