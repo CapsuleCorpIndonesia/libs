@@ -1,1 +1,1 @@
-include ':app', ':login', ':mapgeo'
+include ':app', ':login', ':mapgeo', ':forum', ':imb.recyclerview'

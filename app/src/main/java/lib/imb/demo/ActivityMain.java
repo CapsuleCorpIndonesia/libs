@@ -19,7 +19,6 @@ public class ActivityMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         IMBAuth.getInstance().authenticate(
                 new AuthSettings(this, new IMBAuth.OnAuthListener() {
                     @Override

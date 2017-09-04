@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/forum" />
+            <option value="$PROJECT_DIR$/imb.recyclerview" />
             <option value="$PROJECT_DIR$/login" />
             <option value="$PROJECT_DIR$/mapgeo" />
           </set>
