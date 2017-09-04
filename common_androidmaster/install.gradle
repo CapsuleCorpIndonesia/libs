@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'lib.imb.m' // CREATE A GROUP ID FOR YOUR LIBRARY
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'lib.imb.m' // CREATE A GROUP ID FOR YOUR LIBRARY
+                artifactId 'common_androidmaster' // THE NAME OF YOUR MODULE
+
+                name 'libs' // YOUR LIBRARY NAME
+                description 'Common android IMB libs' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/ciunz/libs/tree/master/imb.recyclerview' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'ciunz' //YOUR ID
+                        name 'Kornelius Sendy' //YOUR NAME
+                        email 'kornelius.sendy@gmail.com' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/ciunz/libs.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/ciunz/libs.git' // YOUR GIT REPO
+                    url 'https://github.com/ciunz/libs/tree/master/common_androidmaster' // YOUR SITE
+
+                }
+            }
+        }
+    }
+}
